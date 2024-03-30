@@ -1,0 +1,25 @@
+// imagine that you have an application it ois a collabrate project in that that  some one of your team mate changed the code so your project might be reuined in that time we can save all the history of the code typed ..
+//A version control system (VCS) is a software tool that tracks and manages changes made to files over time. it is a git
+
+git init // to initialize the git folder this allows to store all the project folders.
+
+git status // to see any recently updated files or directory
+
+// untracked files are those which are not under the eye of the git
+git add . // which help us to upload all the files in the currrent directory 
+git add file.txt // used to add a particular file
+// take a photograph 
+git commit -m "any thing you can msg here"
+
+git restore --staged filename // used to remove the file from the repostory
+
+git log // to see all the history made
+
+  git reset f1a0cabaec6bd686354b9382d81e28fd72e477ad// to get back to the last commits are a particular commit where that id is the commit id
+
+git stash // used to remove all the commands given by us and went to the first first stage
+git stash pop // reverse the git stash 
+git stash clear //where the stash files all will be gone
+// used to add a project in the repostories in git hub
+git remote add origin https://github.com/Gopinathv19/Gitcommands // remote means you are going to working in the urls and add just add ing origin means name of the url you going to paste
+git remote -v // used to return all the urls that are applied in this folder
